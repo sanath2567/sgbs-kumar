@@ -1,11 +1,11 @@
 import React from 'react';
-import { Heart, Github, Linkedin, Twitter } from 'lucide-react';
+import { Github, Linkedin, Twitter } from 'lucide-react';
 
 const Footer: React.FC = () => {
   const socialLinks = [
-    { icon: <Github className="h-5 w-5" />, href: "#", label: "GitHub" },
-    { icon: <Linkedin className="h-5 w-5" />, href: "#", label: "LinkedIn" },
-    { icon: <Twitter className="h-5 w-5" />, href: "#", label: "Twitter" }
+    { icon: <Github className="h-5 w-5" />, href: "https://github.com/sanath2567", label: "GitHub" },
+    { icon: <Linkedin className="h-5 w-5" />, href: "https://www.linkedin.com/in/sriramsanath/", label: "LinkedIn" },
+    { icon: <Twitter className="h-5 w-5" />, href: "https://x.com/SanathSriram?t=tgx_3hvyYylDsuAR1p5o6Q&s=09", label: "Twitter" }
   ];
 
   return (
@@ -26,6 +26,8 @@ const Footer: React.FC = () => {
                 <a
                   key={index}
                   href={link.href}
+                  target='_blank'
+                  rel='noopener noreferrer'
                   aria-label={link.label}
                   className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center text-gray-400 hover:text-yellow-400 hover:bg-gray-700 transition-colors duration-200"
                 >
@@ -72,11 +74,9 @@ const Footer: React.FC = () => {
         <div className="border-t border-gray-800 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-sm text-gray-400">
-              © 2025 Sriram Gnana Brahma Sanath Kumar. All rights reserved.
+              © 2025 SGBS Kumar. All rights reserved.
             </p>
-            <p className="text-sm text-gray-400 flex items-center">
-              Made with <Heart className="h-4 w-4 text-red-500 mx-1" /> and lots of coffee
-            </p>
+           
           </div>
         </div>
       </div>

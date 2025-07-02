@@ -54,7 +54,8 @@ const Hero: React.FC = () => {
             <div className="relative">
               <div className="w-80 h-80 md:w-96 md:h-96 rounded-full bg-gradient-to-br from-yellow-400 to-yellow-600 p-2">
                 <img
-                  src="https://i.postimg.cc/Prhdvx2Z/Whats-App-Image-2024-04-19-at-10-03-57-PM-1.jpg"
+                src="https://i.postimg.cc/Prhdvx2Z/Whats-App-Image-2024-04-19-at-10-03-57-PM-1.jpg"
+                  
                   alt="Sriram Gnana Brahma Sanath Kumar - Full-Stack Developer"
                   className="w-full h-full rounded-full object-cover"
                 />

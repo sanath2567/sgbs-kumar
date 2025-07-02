@@ -6,7 +6,7 @@ const Projects: React.FC = () => {
     {
       title: "Weather Forecast Web App",
       description: "Real-time weather application displaying current conditions and forecasts using OpenWeatherMap API with location-based services.",
-      tech: ["React.js", "TypeScript", "OpenWeatherMap API", "Geolocation"],
+      tech: ["React.js",  "OpenWeatherMap API"],
       image: "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800"
     },
     {
@@ -18,21 +18,22 @@ const Projects: React.FC = () => {
     {
       title: "Email Reply Generator",
       description: "Smart email assistant that generates contextual replies using Gemini API and advanced prompt engineering techniques.",
-      tech: ["Gemini API", "Node.js", "Prompt Engineering", "NLP"],
+      tech: ["Gemini API", "Spring Boot", "React.js"],
       image: "https://images.pexels.com/photos/1591056/pexels-photo-1591056.jpeg?auto=compress&cs=tinysrgb&w=800"
     },
     {
       title: "Q&A Assistant",
       description: "Full-stack AI-based question answering system with context understanding and intelligent response generation capabilities.",
-      tech: ["Spring Boot", "React.js", "AI/ML", "REST API"],
+      tech: ["Spring Boot", "React.js", "REST API"],
       image: "https://images.pexels.com/photos/8386434/pexels-photo-8386434.jpeg?auto=compress&cs=tinysrgb&w=800"
     },
     {
       title: "QR Code Generator",
       description: "Dynamic QR code generator with customization options, batch processing, and downloadable formats for various use cases.",
-      tech: ["HTML5", "CSS3", "JavaScript", "Canvas API"],
+      tech: ["HTML5", "CSS3", "JavaScript"],
       image: "https://images.pexels.com/photos/8566472/pexels-photo-8566472.jpeg?auto=compress&cs=tinysrgb&w=800"
-    }
+    },
+    
   ];
 
   return (
